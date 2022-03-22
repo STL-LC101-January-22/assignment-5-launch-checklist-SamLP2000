@@ -25,11 +25,11 @@ function addDestinationInfo(
    */
   output.innerHTML = `<h2>Mission Destination</h2>
                     <ol>
-                        <li>Name:    \t  ${name}</li>
-                        <li>Diameter: \t    ${diameter}</li>
-                        <li>Star:   \t   ${star}</li>
-                        <li>Distance from Earth:   \t    ${distance}</li>
-                        <li>Number of Moons:  \t   ${moons}</li>
+                        <li>Name:     ${name}</li>
+                        <li>Diameter:     ${diameter}</li>
+                        <li>Star:      ${star}</li>
+                        <li>Distance from Earth:      ${distance}</li>
+                        <li>Number of Moons:     ${moons}</li>
                     </ol>    
                     <img src="${imageUrl}">
                 `;

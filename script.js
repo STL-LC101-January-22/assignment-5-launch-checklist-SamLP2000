@@ -10,7 +10,8 @@ window.addEventListener("load", function () {
   let form = document.querySelector("form");
   let inputValues = document.querySelectorAll("input[type=text]");
   let number = inputValues.length - inputValues.length;
-
+        list.style.visibility = "hidden";
+        
   form.addEventListener("submit", function (event) {
       formSubmission(
       window.document,

@@ -77,7 +77,7 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
       inputArray[i] === "Not a Number" ||
       inputArray[i] === "Is a Number"
     ) {
-      return alert("Make sure to enter valid information for each field!");
+     return alert("Make sure to enter valid information for each field!");
     }
   }
   if (fuelLevel < 10000 && cargoLevel < 10000) {
